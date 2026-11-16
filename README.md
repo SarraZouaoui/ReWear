@@ -1,17 +1,10 @@
-# rewear
+## Modèle de données : Clothing
 
-A new Flutter project.
+1) Le modèle Clothing représente un vêtement enregistré dans
+la garde-robe de l'utilisateur.
 
-## Getting Started
+Chaque vêtement possède les attributs suivants :
 
-This project is a starting point for a Flutter application.
+Le modèle Clothing contient les informations essentielles de chaque vêtement : son nom, sa catégorie, sa couleur, sa saison ainsi que sa photo .
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2) Le fichier "fake_clothes.dart" contient une liste temporaire de vêtements avec leurs noms, catégories, couleurs, saisons et chemins des images. Ces données fictives permettent de tester l'application avant leur remplacement par les données récupérées depuis la source de données réelle.
