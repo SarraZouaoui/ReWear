@@ -1,7 +1,7 @@
 
 class Outfit {
   final String id;
-  final String name;
+  String name;
   final List<String> clothingIds;
   bool isFavorite;
   final DateTime createdAt;

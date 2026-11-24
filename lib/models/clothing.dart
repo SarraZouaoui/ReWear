@@ -7,6 +7,12 @@ class Clothing {
   final String season;
   final String image;
 
+  static int _idCounter = 0;
+
+  static String _generateId() {
+    return '${DateTime.now().microsecondsSinceEpoch}_${_idCounter++}';
+  }
+
   Clothing({
     String? id,
     required this.name,
@@ -14,5 +20,5 @@ class Clothing {
     required this.color,
     required this.season,
     required this.image,
-  }) : id = id ?? DateTime.now().microsecondsSinceEpoch.toString();
+  }) : id = id ?? _generateId();
 }

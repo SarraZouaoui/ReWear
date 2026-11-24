@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'screens/wardrobe_screen.dart';
+import 'screens/main_navigation_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         scaffoldBackgroundColor: const Color(0xFFF8F6F1),
       ),
-      home: const WardrobeScreen(),
+      home: const MainNavigationScreen(),
     );
   }
 }
